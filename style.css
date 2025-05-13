@@ -1,0 +1,233 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to right, #f0f4f8, #e0e7ff);
+  color: #1f2937;
+}
+header {
+  padding: 3rem 1rem;
+  text-align: center;
+  background: linear-gradient(to right, #3b82f6, #9333ea);
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+header h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+header p {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-top: 1rem;
+}
+.icons a {
+  color: white;
+  font-size: 1.5rem;
+  transition: transform 0.2s;
+}
+.icons a:hover {
+  transform: scale(1.2);
+}
+section {
+  padding: 3rem 1.5rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+section h2 {
+  font-size: 2rem;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  border-bottom: 2px solid #6366f1;
+  display: inline-block;
+  color: #4f46e5;
+}
+.about p, .about ul {
+  font-size: 1.1rem;
+  line-height: 1.7;
+  margin-top: 1rem;
+}
+.about ul {
+  list-style: square;
+  margin-left: 2rem;
+}
+.project-card {
+  background: white;
+  padding: 2rem;
+  border-radius: 1rem;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.project-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 32px rgba(0,0,0,0.15);
+}
+.project-card ul {
+  list-style: disc;
+  margin-left: 1.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.6;
+}
+.contact p {
+  font-size: 1.1rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+footer {
+  background: #1e293b;
+  color: #cbd5e1;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 2rem;
+}
+
+
+.button {
+  display: inline-block;
+  padding: 0.6rem 1.2rem;
+  margin-top: 1rem;
+  background: #10b981;
+  color: white;
+  border: none;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.3s;
+}
+.button:hover {
+  background: #059669;
+}
+
+.contact-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.contact-card {
+  background: #f9fafb;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 300px;
+  text-align: center;
+}
+.contact-card h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1.4rem;
+  color: #3b82f6;
+}
+.contact-card .designation {
+  font-weight: 600;
+  color: #6b7280;
+}
+.contact-card p {
+  margin: 0.5rem 0;
+}
+
+
+.screenshots {
+  padding: 3rem 1.5rem;
+  background: #fff7ed;
+  text-align: center;
+}
+
+.screenshots h2 {
+  font-size: 2rem;
+  color: #d97706;
+  margin-bottom: 2rem;
+}
+
+.screenshot-gallery {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+}
+
+.screenshot-box {
+  background: #fde68a;
+  border-radius: 1rem;
+  width: 400px;
+  height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  color: #78350f;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Apply consistent warm background box to all content sections */
+section.about, section.projects, section.screenshots, section.contact {
+  background-color: #fffaf0;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin: 2rem auto;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
+}
+
+.sprint-block {
+  background-color: #fffbeb;
+  border-radius: 1rem;
+  padding: 2rem;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.05);
+}
+
+.sprint-block h3 {
+  color: #b45309;
+  margin-top: 1.5rem;
+}
+
+.sprint-block ul {
+  list-style: disc;
+  margin-left: 2rem;
+  line-height: 1.6;
+}
+
+section h2 {
+  color: #b45309;
+}
+
+body {
+  background: linear-gradient(to right, #fef3c7, #fde68a);
+}
+.social-icons {
+  margin-top: 10px;
+  display: flex;
+  justify-content: center; /* centers the icons */
+  gap: 10px;
+  margin-right: 15px;
+}
+
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.social-icons img {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.2s ease;
+}
+
+.social-icons img:hover {
+  transform: scale(1.1);
+}
+
+.screenshot-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}

@@ -46,7 +46,7 @@ section h2 {
   margin-bottom: 1.5rem;
   border-bottom: 2px solid #6366f1;
   display: inline-block;
-  color: #4f46e5;
+  color: #06016c;
 }
 .about p, .about ul {
   font-size: 1.1rem;
@@ -155,7 +155,7 @@ footer {
 }
 
 .screenshot-box {
-  background: #fde68a;
+  background: #000000;
   border-radius: 1rem;
   width: 400px;
   height: 280px;
